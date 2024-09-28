@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('joinus.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+footer {
+        
+    display: flex;
+        
+    flex-direction: column;
+        
+    background-color: rgb(6, 5, 5);
+        
+    align-items: center;
+        color: rgb(223, 216, 216);
+        width:100%;
+        
+     
+     }
+     .footer0 h1{
+        font-size: 60px;
+     }
+      
+     
+     .footer1 {
+        
+    display: flex;
+        
+    flex-direction: column;
+       
+     align-items: center;
+        
+    color: rgb(158, 28, 28);
+        filter: invert(1);
+    margin-top: 15px;
+    font-size: 30px;
+    gap:15px;
+     
+     }
+      
+    .social-media {
+        
+    display: flex;
+        
+    justify-content: center;
+        
+    color: white;
+        
+    flex-wrap: wrap;
+     
+     }
+      
+    .social-media a {
+       
+     color: white;
+        
+    margin: 20px;
+        
+    border-radius: 5px;
+        
+    margin-top: 10px;
+       
+     color: white;
+     filter: invert(1);
+    padding-left: 4%;
+     
+     }
+     
+    
+     
+     
+     
+     .footer2 {
+        
+    display: flex;
+        
+    width: 100%;
+       
+     justify-content: space-evenly;
+        
+    align-items: center;
+        
+    text-decoration: none;
+        
+    flex-wrap: wrap;
+      
+    }
+      
+    .footer0 {
+       
+     font-weight: 1200;
+       color: #090909;
+     transition-duration: 1s;
+     
+     }
+    
+      .footer0:hover {
+        
+    color: rgb(243, 168, 7);
+      
+    }
+     
+    .footer2 .heading {
+       
+     font-weight: 900;
+        
+    font-size: 18px;
+     
+     }
+     
+     .footer3 {
+        
+    margin-top: 60px;
+        
+    margin-bottom: 20px;
+        
+    display: flex;
+        
+    flex-wrap: wrap;
+       
+     justify-content: center;
+      
+    }
+    
+      .footer2 .heading:hover {
+       
+     color: rgb(243, 168, 7);
+    
+     }
+     
+     .footer2 .div:hover {
+       
+     transform: scale(1.05);
+     
+     }
+    
+      .footer3 h4 {
+        
+    margin: 0 10px;
+    
+      }
+      
+    .footer2 div {
+        
+    margin: 10px;
+     
+     }
+     .invert{
+        filter: invert(1);
+     }
+     .button{
+        background-color:#e08900;
+        color: #090909;
+     }
